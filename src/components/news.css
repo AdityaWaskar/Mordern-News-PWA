@@ -10,3 +10,25 @@
     font-size: 2rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+    .card img {
+        width: 120px;
+        height: auto;
+    }
+
+    .card .right .title {
+        font-size: 1rem; 
+    }
+
+    .card .right{
+        font-size: .7rem;
+    }
+    .card .right .otherInfo {
+        font-size: .5rem;
+    }
+
+    .card{
+        width: 95vw; 
+    }
+  }

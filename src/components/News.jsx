@@ -6,7 +6,7 @@ import data from "./data.js";
 const News = () => {
   return (
     <section className="newsContainer">
-      <h1>New Website</h1>
+      <h1>News Website</h1>
 
       {data?.map((news, i) => (
         <Card

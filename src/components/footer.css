@@ -13,3 +13,9 @@ footer span{
     color: greenyellow;
     padding-left: 4px;
 }
+
+@media screen and (max-width: 600px) {
+    footer{
+        font-size: .7rem;
+    }
+  }
