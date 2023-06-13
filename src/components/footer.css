@@ -1,0 +1,15 @@
+footer{
+    margin-top: 20px; 
+    text-align: center;
+    padding: 15px 0;
+    background-color: black;
+    color: white; 
+    letter-spacing: 2px;
+
+}
+
+footer span{
+    font-style: italic;
+    color: greenyellow;
+    padding-left: 4px;
+}

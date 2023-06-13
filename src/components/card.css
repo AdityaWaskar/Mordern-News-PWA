@@ -1,0 +1,40 @@
+.cardContainer hr{
+    margin-top: 10px;
+}
+
+.card{
+    display: flex;
+    width: 70vw;
+    /* background-color: red; */
+    gap: 20px;
+}
+ 
+.card img{
+    width: 200px;
+    height: 100%;
+}
+
+.card .right{ 
+    color: rgb(82, 81, 81);
+    font-size: 1rem;
+}
+
+.card .right span{
+    display: block;
+}
+
+.card .right .title{
+    font-size: 1.5rem;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.card .right .otherInfo{ 
+    font-size: .9rem;
+    font-style: italic;
+    display: flex;
+    justify-content: end;
+    margin-top: 4px;
+}
